@@ -8,7 +8,7 @@ Account Manager - Alternate to Save Your Account
 - Easy to put data or create
 - 2x Encryption
 - 2x Security
-
+- Can Search Your Account as keyword
 
 
 ## _*Data Saved*_ : 
