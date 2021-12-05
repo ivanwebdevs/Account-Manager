@@ -1,13 +1,10 @@
-<?php include './path.php'?>
 <?php
+include './path.php';
 if (empty($_POST['path'])) {
-header("Location: ./index.php?pesan=1");
+$loca = "Location: ./index.php?pesan=1";
 }
 else{
-header("Location: ./index.php?pesan=3");
-
-
-
+$loca = "Location: ./index.php?pesan=3";
 $code = $_POST['path'];
 $searchnamess = "<encrypt>$code</encrypt>";
 $total_epsedit = "";
@@ -21,10 +18,6 @@ $resulttotaltotal .= $uniqtotal;
 }
 }
 file_put_contents("$pathnya", $resulttotaltotal);
-
-
-
-
 $total_epsedit1 = "";
 $lineztotaltotal1 = file("$pathconfig");
 $linetotaltotal1 = preg_replace('/^[\r]*[\n\t]+/m', '', $lineztotaltotal1);
@@ -36,6 +29,6 @@ $resulttotaltotal1 .= $uniqtotal1;
 }
 }
 file_put_contents("$pathconfig", $resulttotaltotal1);
-
 }
+header($loca);
 ?>

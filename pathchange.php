@@ -12,8 +12,7 @@ $pathsebelum = $pathnya;
 $pathconfigsebelum = $pathconfig;
 $k = '$';
 $searchnamess = "//pathconfigmantap26190//";
-$total_epsedit = "
-<?php ".$k."pathnya = '$pathsesudah'; ".$k."pathconfig = '$pathconfigusersudah';  //pathconfigmantap26190//?>
+$total_epsedit = "<?php ".$k."pathnya = '$pathsesudah'; ".$k."pathconfig = '$pathconfigusersudah';  //pathconfigmantap26190//?>
 ";
 $lineztotaltotal = file("path.php");
 $linetotaltotal = preg_replace('/^[\r]*[\n\t]+/m', '', $lineztotaltotal);

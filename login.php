@@ -1,6 +1,28 @@
 <?php
 $username = "admin";
-$password = "123@admin";
+$password = "123456";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 $ip = $_SERVER['REMOTE_ADDR'];

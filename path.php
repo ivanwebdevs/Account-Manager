@@ -1,2 +1,1 @@
-
-<?php $pathnya = 'backup/December-2-2021-12-59941b1f31c7fa8a07bcd24c2360d1a7f8.enkripsi26190'; $pathconfig = 'backup/December-2-2021-12-59941b1f31c7fa8a07bcd24c2360d1a7f8.enksipsi.config';  //pathconfigmantap26190//?>
+<?php $pathnya = 'backup/December-5-2021-8-471bbce6a6185f2511cbc192d379f6c9c1.enkripsi26190'; $pathconfig = 'backup/December-5-2021-8-471bbce6a6185f2511cbc192d379f6c9c1.enksipsi.config';  //pathconfigmantap26190//?>

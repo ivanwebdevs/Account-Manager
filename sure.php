@@ -2,19 +2,11 @@
 $ip = $_SERVER['REMOTE_ADDR'];
 $lines = file('./login.encrypt');
 $before = $lines[0];
-if ($ip == $before){
-    echo "Berhasil login";
-   $pathnext = "./index.php?pesan=2";
-}
-else {
 
-   $pathnext = "./login.php";
-}?>
-
-
-<?php header("Location: $pathnext");?>
+if ($ip == $before){$pathnext = "./index.php?pesan=2";}
+else {   $pathnext = "./login.php";
+}header("Location: $pathnext");?>
 <?php include './path.php'?>
-
 <?php
 
 
